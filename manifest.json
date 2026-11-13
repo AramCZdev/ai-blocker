@@ -3,7 +3,15 @@
   "name": "AI Blocker",
   "description": "Blocks AI Websites.",
   "version": "unreleased",
-  
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "aramcz@protonmail.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
 
   "permissions": [
     "storage",
