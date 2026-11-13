@@ -1,9 +1,10 @@
+
 [
   {
     "id": 1,
-    "priority": 4,
+    "priority": 10,
     "condition": {
-      "urlFilter": "||chatgpt.com/|",
+      "urlFilter": "||chatgpt.com^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
@@ -15,50 +16,183 @@
   },
   {
     "id": 2,
-    "priority": 3,
+    "priority": 10,
     "condition": {
-      "urlFilter": "||chatgpt.com/ew",
+      "urlFilter": "||claude.ai^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "/redirectTarget.html"
+        "extensionPath": "/redirectTarget.html"
       }
     }
   },
   {
     "id": 3,
-    "priority": 2,
+    "priority": 10,
     "condition": {
-      "urlFilter": "|https://www.chatgpt.com/",
+      "urlFilter": "||gemini.google.com^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
       "type": "redirect",
       "redirect": {
-        "transform": {
-          "host": "chatgpt.com",
-          "queryTransform": {
-            "addOrReplaceParams": [
-              { "key": "redirected_from_www", "value": "1" }
-            ]
-          }
-        }
+        "extensionPath": "/redirectTarget.html"
       }
     }
   },
   {
     "id": 4,
+    "priority": 10,
     "condition": {
-      "regexFilter": "^https?://([^?]+)$",
-      "requestDomains": ["chatgpt.com"],
+      "urlFilter": "||copilot.microsoft.com^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "/redirectTarget.html"
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||perplexity.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||deepseek.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||grok.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||poe.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||character.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||mistral.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||meta.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||you.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||phind.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||huggingface.co/chat^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
       }
     }
   }
