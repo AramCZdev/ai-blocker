@@ -270,7 +270,49 @@
     "id": 20,
     "priority": 10,
     "condition": {
-      "urlFilter": "||anthropic.com^",
+      "urlFilter": "||kimi.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||z.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||https://deepmind.google/^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||https://deepmind.google/^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
