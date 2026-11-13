@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width"> <!-- mobile-friendly -->
+<base target="_blank"> <!-- Open links in new tab by default -->
+</head>
+<body>
+  <h2>Host permission requirement</h2>
+  To redirect requests, the extension needs host permissions.<br>
+  While "Manage Extensions" (<code>about:addons</code>) offers a built-in UI to grant or revoke permissions, this extension uses the <code>permissions</code> API to build the request into the UI:
+  <p>
+  <label>
+    <input type="checkbox" id="checkbox_host_permission">
+    Allow access to AI
+  </label>
+
+  <script src="popup.js"></script>
+</body>
+</html>
