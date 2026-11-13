@@ -237,5 +237,47 @@
         "extensionPath": "/redirectTarget.html"
       }
     }
+  },
+  {
+    "id": 18,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||openai.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||anthropic.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||anthropic.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
   }
 ]
