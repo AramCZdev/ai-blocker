@@ -194,7 +194,8 @@
       "redirect": {
         "extensionPath": "/redirectTarget.html"
       }
-    },
+    }
+  },
   {
     "id": 15,
     "priority": 10,
@@ -207,7 +208,8 @@
       "redirect": {
         "extensionPath": "/redirectTarget.html"
       }
-    },
+    }
+  },
   {
     "id": 16,
     "priority": 10,
@@ -220,6 +222,8 @@
       "redirect": {
         "extensionPath": "/redirectTarget.html"
       }
+    }
+  },
   {
     "id": 17,
     "priority": 10,
@@ -232,7 +236,6 @@
       "redirect": {
         "extensionPath": "/redirectTarget.html"
       }
-    },
-    },
+    }
   }
 ]
