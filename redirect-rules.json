@@ -194,6 +194,45 @@
       "redirect": {
         "extensionPath": "/redirectTarget.html"
       }
-    }
+    },
+  {
+    "id": 15,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||openrouter.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    },
+  {
+    "id": 16,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||groq.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+  {
+    "id": 17,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||opencode.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    },
+    },
   }
 ]
