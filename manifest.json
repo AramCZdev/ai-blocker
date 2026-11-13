@@ -5,12 +5,12 @@
   "version": "unreleased",
 
   "permissions": [
-    "storage"
+    "storage",
+    "declarativeNetRequest"
   ],
 
   "host_permissions": [
-    "<all_urls>",
-    "declarativeNetRequest"
+    "<all_urls>"
   ],
 
   "declarative_net_request": {
