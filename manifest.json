@@ -3,6 +3,7 @@
   "name": "AI Blocker",
   "description": "Blocks AI Websites.",
   "version": "unreleased",
+  
 
   "permissions": [
     "storage",
