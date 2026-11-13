@@ -9,7 +9,7 @@ if (typeof browser == "undefined") {
 
 const permissions = {
   // This origin is listed in host_permissions:
-  origins: ["*://*.chatgpt.com/"],
+  origins: ["<all_urls>"],
 };
 
 const checkbox_host_permission = document.getElementById("checkbox_host_permission");
