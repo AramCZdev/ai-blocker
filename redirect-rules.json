@@ -270,7 +270,21 @@
     "id": 20,
     "priority": 10,
     "condition": {
-      "urlFilter": "||anthropic.com^",
+      "urlFilter": "||is-an.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||github.com/copilot^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
