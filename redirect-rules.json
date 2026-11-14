@@ -270,7 +270,7 @@
     "id": 20,
     "priority": 10,
     "condition": {
-      "urlFilter": "||is-an.ai^",
+      "urlFilter": "is-an.ai^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
