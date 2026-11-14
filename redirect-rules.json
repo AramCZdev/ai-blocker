@@ -270,7 +270,7 @@
     "id": 20,
     "priority": 10,
     "condition": {
-      "urlFilter": "is-an.ai^",
+      "urlFilter": "||is-an.ai^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
@@ -285,6 +285,412 @@
     "priority": 10,
     "condition": {
       "urlFilter": "||github.com/copilot^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||aistudio.google.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||notebooklm.google.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||chat.qwen.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||kimi.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||chat.mistral.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||z.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||chat.z.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||pi.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||blackbox.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||askcodi.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||codeium.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||windsurf.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||cursor.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||replit.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||bolt.new^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||lovable.dev^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||v0.app^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||devin.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||manus.im^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||runwayml.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||pika.art^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||klingai.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||luma.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||ideogram.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||leonardo.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||krea.ai^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||suno.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||udio.com^",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "priority": 10,
+    "condition": {
+      "urlFilter": "||elevenlabs.io^",
       "resourceTypes": ["main_frame"]
     },
     "action": {
