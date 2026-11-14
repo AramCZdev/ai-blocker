@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html>
+  <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --primary: #6b7eff;
+        --secondary: #d0d0d0;
+        --accent: #00d9ff;
+        --bg: #121212;
+        --text: #f5f5f5;
+        --border: #333333;
+        --card-bg: #1e1e1e;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        padding: 20px;
+    }
+  
+    .checkbox {
+        background: var(--card-bg);
+        border: 2px solid var(--border);
+        border-radius: 8px;
+        padding: 25px;
+        margin-bottom: 20px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .checkbox h3 {
+        font-size: 20px;
+        color: var(--secondary);
+    }
+
+    .checkbox-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 15px;
+    }
+
+
+  </style>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width"> <!-- mobile-friendly -->
 <title>Blocked</title>
 </head>
 <body>
-  This AI Website was blocked by AI Blocker.
+  <h2>This AI Website was blocked by AI Blocker.</h2>
 </body>
 </html>
