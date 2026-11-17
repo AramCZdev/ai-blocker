@@ -35,3 +35,21 @@ checkbox_host_permission.onchange = async () => {
 browser.permissions.contains(permissions).then(granted => {
   checkbox_host_permission.checked = granted;
 });
+
+const checkbox_wildcard = document.getElementById("checkbox_wildcard_ai");
+checkbox_wildcard.onchange = async () => {
+  if (checkbox_wildcard.checked) {
+    await browser.declarativeNetRequest.updateEnabledRulesets({
+      enableRulesetIds: ["wildcard-ai"]
+    });
+  } else {
+    await browser.declarativeNetRequest.updateEnabledRulesets({
+      disableRulesetIds: ["wildcard-ai"]
+    });
+  }
+};
+// The browser persists which static rulesets are enabled, so the checkbox
+// state is restored from there instead of needing the "storage" permission.
+browser.declarativeNetRequest.getEnabledRulesets().then(ids => {
+  checkbox_wildcard.checked = ids.includes("wildcard-ai");
+});

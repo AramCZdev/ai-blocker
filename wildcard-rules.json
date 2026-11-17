@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 10,
+    "condition": {
+      "regexFilter": "^https?://[^/?#]*\\.ai([/:?#]|$)",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/redirectTarget.html"
+      }
+    }
+  }
+]
