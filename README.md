@@ -11,3 +11,8 @@ Credit to [Webextensions Example](https://github.com/mdn/webextensions-examples/
 - [ ] Block more AI Websites
 - [ ] Put on Chrome Web Store
 - [ ] Put on Firefox Addon Store
+
+## Browser tests
+
+- Firefox - Fully working
+- Chrome/Chromium - Working though some UI is weird
