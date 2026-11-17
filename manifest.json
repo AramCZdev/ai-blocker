@@ -22,8 +22,8 @@
   ],
 
   "icons": {
-    "64": "/assets/ai-blocker-64.png",
-    "32": "/assets/ai-blocker-32.png"
+    "64": "assets/ai-blocker-64.png",
+    "32": "assets/ai-blocker-32.png"
   },
 
   "declarative_net_request": {
@@ -42,7 +42,10 @@
   },
 
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "assets/ai-blocker-32.png"
+    }
   },
 
   "web_accessible_resources": [
