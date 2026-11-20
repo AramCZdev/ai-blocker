@@ -10,7 +10,7 @@ Credit to [Webextensions Example](https://github.com/mdn/webextensions-examples/
 - [ ] Block AI in search
 - [ ] Block more AI Websites
 - [ ] Put on Chrome Web Store
-- [ ] Put on Firefox Addon Store
+- [X] Put on Firefox Addon Store
 
 ## Browser tests
 
